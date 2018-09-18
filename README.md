@@ -1,3 +1,6 @@
+
+[![Build Status](https://dev.azure.com/andrewmoravec/andrewmoravec/_apis/build/status/amoravec.Gnomes)](https://dev.azure.com/andrewmoravec/andrewmoravec/_build/latest?definitionId=1)
+
 # Gnomes
 Example implementation of solving a homework problem.
 
