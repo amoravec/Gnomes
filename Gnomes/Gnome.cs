@@ -9,7 +9,7 @@ namespace Gnomes
 
         string Name => GetType().Name;
 
-        public override string ToString() => string.Format(CultureInfo.InvariantCulture, "{0}", this.Name);
+        public override string ToString() => string.Format(CultureInfo.InvariantCulture, "{0} weighing {1} grams", this.Name, this.Weight);
     }
 
     class SeniorCitizen : Gnome

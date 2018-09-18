@@ -90,9 +90,6 @@ namespace Gnomes
             Console.WriteLine();
 
             Console.WriteLine();
-            Console.WriteLine("Press <ENTER> to continue.");
-            Console.ReadLine();
-
             return sortedBoats;
             
         }
