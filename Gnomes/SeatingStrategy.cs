@@ -40,13 +40,13 @@ namespace Gnomes
                 s =>
                 {
 
-                    for (int a = 0; a < Math.Ceiling(Boat.MaxBoatWeight / (double)adult.Weight); a++)
+                    for (int a = 0; a <= Math.Floor(Boat.MaxBoatWeight / (double)adult.Weight); a++)
                     {
-                        for (int t = 0; t < Math.Ceiling(Boat.MaxBoatWeight / (double)teenager.Weight); t++)
+                        for (int t = 0; t <= Math.Floor(Boat.MaxBoatWeight / (double)teenager.Weight); t++)
                         {
-                            for (int c = 0; c < Math.Ceiling(Boat.MaxBoatWeight / (double)child.Weight); c++)
+                            for (int c = 0; c <= Math.Floor(Boat.MaxBoatWeight / (double)child.Weight); c++)
                             {
-                                for (int i = 0; i < Math.Ceiling(Boat.MaxBoatWeight / (double)infant.Weight); i++)
+                                for (int i = 0; i <= Math.Floor(Boat.MaxBoatWeight / (double)infant.Weight); i++)
                                 {
                                     possibleCombinations++;
 
